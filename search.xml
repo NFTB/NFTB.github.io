@@ -8,7 +8,7 @@
       <link href="/2022/12/09/mo-bi-wu-si-fan-yan/"/>
       <url>/2022/12/09/mo-bi-wu-si-fan-yan/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="莫比乌斯反演"><a href="#莫比乌斯反演" class="headerlink" title="莫比乌斯反演"></a>莫比乌斯反演</h1><h2 id="1-莫比乌斯函数"><a href="#1-莫比乌斯函数" class="headerlink" title="1.莫比乌斯函数"></a>1.莫比乌斯函数</h2><h4 id="1-1算数基本定理："><a href="#1-1算数基本定理：" class="headerlink" title="1.1算数基本定理："></a>1.1算数基本定理：</h4><p>任何一个大于1的正整数都能分解为有限个质数的乘积</p><p>$$<br>N&#x3D;{p_1}^{c_1}{p_2}^{c_2}…{p_k}^{c_k}<br>$$<br>其中$c_i$都是正整数,$p_i$都是质数，且满足$p_1&lt;p_2&lt;…&lt;p_k$</p><h4 id="1-2莫比乌斯函数"><a href="#1-2莫比乌斯函数" class="headerlink" title="1.2莫比乌斯函数"></a>1.2莫比乌斯函数</h4><p>$$<br>\mu(n)&#x3D;<br>\begin{cases}<br>1       &amp; n&#x3D;1 \<br>0       &amp; \exists c_i&gt;1 \<br>(-1)^k  &amp; \forall c_i&#x3D;1 \<br>\end{cases}<br>$$</p><h4 id="1-3莫比乌斯函数的性质"><a href="#1-3莫比乌斯函数的性质" class="headerlink" title="1.3莫比乌斯函数的性质"></a>1.3莫比乌斯函数的性质</h4><p>$$<br>\sum_{d|n}{\mu(d)}&#x3D;<br>\begin{cases}<br>1   &amp; n&#x3D;1 \<br>0   &amp; n\ne1 \<br>\end{cases}<br>$$</p><p>证明：<br>由于$d$是$n$的约数，所以$d$可以由$n$的质因子组成<br>$n&#x3D;{p_1}^{c_1}{p_2}^{c_2}…{p_k}^{c_k}$<br>$\exists c_i&gt;1$时$\mu(n)&#x3D;0$<br>故$d&#x3D;{p_1}^{\alpha_1}{p_2}^{\alpha_2}…{p_k}^{\alpha_k}$其中$\alpha_i$等于$0$或$1$</p><h2 id="2-莫比乌斯反演"><a href="#2-莫比乌斯反演" class="headerlink" title="2.莫比乌斯反演"></a>2.莫比乌斯反演</h2>]]></content>
       
       
       <categories>
