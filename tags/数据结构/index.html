@@ -332,9 +332,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -380,6 +378,15 @@
                     </span>
                 </a>
                 
+                
+                <a href="/tags/%E5%9B%BE%E8%AE%BA/" title="图论: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="图论" style="background-color: #E8F8F5;">图论
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -396,8 +403,7 @@
                     <a href="/2022/11/01/splay/">
                         <div class="card-image tag-image">
                             
-                            
-                            <img src="/medias/featureimages/1.png" class="responsive-img" alt="Splay">
+                            <img src="https://cdn.jsdelivr.net/gh/NFTB/picgo/202301062003016.jpg" class="responsive-img" alt="Splay">
                             
                             <span class="card-title">Splay</span>
                         </div>
@@ -428,8 +434,7 @@
                     <a href="/2022/10/09/shu-zhuang-shu-zu-zong-jie/">
                         <div class="card-image tag-image">
                             
-                            
-                            <img src="/medias/featureimages/0.png" class="responsive-img" alt="树状数组总结">
+                            <img src="https://cdn.jsdelivr.net/gh/NFTB/picgo/202301062003985.jpg" class="responsive-img" alt="树状数组总结">
                             
                             <span class="card-title">树状数组总结</span>
                         </div>
@@ -469,7 +474,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2022</span>
+                <span id="year">2022-2023</span>
             
             <a href="/about" target="_blank">NFTB</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
